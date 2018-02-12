@@ -1,0 +1,147 @@
+#color {
+    display: none;
+    flex-wrap: wrap;
+    border: 2px solid black;
+    width: 111px;
+    height: 111px;
+    position: absolute;
+    top: 630px;
+    left: 950px;
+}
+
+#one {
+    border: 2px solid black;
+    width: 33px;
+    height: 33px;
+    background-color: cadetblue;
+}
+
+#two {
+    border: 2px solid black;
+    width: 33px;
+    height: 33px;
+    background-color: brown;
+}
+
+#three {
+    border: 2px solid black;
+    width: 33px;
+    height: 33px;
+    background-color: greenyellow;
+}
+
+#four {
+    border: 2px solid black;
+    width: 33px;
+    height: 33px;
+    background-color: darkgreen;
+}
+
+#five {
+    border: 2px solid black;
+    width: 33px;
+    height: 33px;
+    background-color: gray;
+}
+
+#six {
+    border: 2px solid black;
+    width: 33px;
+    height: 33px;
+    background-color: red;
+}
+
+#seven {
+    border: 2px solid black;
+    width: 33px;
+    height: 33px;
+    background-color: blue;
+}
+
+#eight {
+    border: 2px solid black;
+    width: 33px;
+    height: 33px;
+    background-color: blueviolet;
+}
+
+#nine {
+    border: 2px solid black;
+    width: 33px;
+    height: 33px;
+    background-color: orangered;
+}
+
+#color2 {
+    display: none;
+    flex-wrap: wrap;
+    border: 2px solid black;
+    width: 111px;
+    height: 111px;
+    position: absolute;
+    top: 630px;
+    left: 950px;
+}
+
+#one2 {
+    border: 2px solid black;
+    width: 33px;
+    height: 33px;
+    background-color: cadetblue;
+}
+
+#two2 {
+    border: 2px solid black;
+    width: 33px;
+    height: 33px;
+    background-color: brown;
+}
+
+#three2 {
+    border: 2px solid black;
+    width: 33px;
+    height: 33px;
+    background-color: greenyellow;
+}
+
+#four2 {
+    border: 2px solid black;
+    width: 33px;
+    height: 33px;
+    background-color: darkgreen;
+}
+
+#five2 {
+    border: 2px solid black;
+    width: 33px;
+    height: 33px;
+    background-color: gray;
+}
+
+#six2 {
+    border: 2px solid black;
+    width: 33px;
+    height: 33px;
+    background-color: red;
+}
+
+#seven2 {
+    border: 2px solid black;
+    width: 33px;
+    height: 33px;
+    background-color: blue;
+}
+
+#eight2 {
+    border: 2px solid black;
+    width: 33px;
+    height: 33px;
+    background-color: blueviolet;
+}
+
+#nine2 {
+    border: 2px solid black;
+    width: 33px;
+    height: 33px;
+    background-color: orangered;
+}

@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="zxx"> 	<!--zxx - это для неопределенного языка, например шаблон с рыбой "Lorem ipsum"-->
+
+<head>
+	<meta charset="UTF-8">
+	<title>KR_2</title>
+	<link rel="stylesheet" href="css/mystyle.css"></head>
+
+<body>
+	<div id="overlay_2"></div>
+	<div class="main"> 	<!-- Block with button Edit, Style - 1 form-->
+		<div class="box buttons">
+			<form action="#" name="form1" class="form1">
+				<input class="button edit" type="button" value="Edit" name="edit">
+				<input class="button bold" type="button" value="Bold" name="Bold">
+				<input class="button italic" type="button" value="Italic" name="Italic">
+				<input class="button underline" type="button" value="U" name="U">
+				<input class="button indent" type="button" value="&#182;" name="indent">
+				<input class="button save" type="button" value="Save" name="save">
+				<input class="button Create_Table" type="button" value="Create Table" name="Create Table">
+				<input class="button Create_List" type="button" value="Create List" name="Create List">
+					<label>  <!-- Text stilization block-->
+					<select name="font_size" class="select_form2">
+						<option>7pt</option>
+						<option>8pt</option>
+						<option>9pt</option>
+						<option>10pt</option>
+						<option selected>11pt</option>
+						<option>12pt</option>
+						<option>14pt</option>
+						<option>16pt</option>
+						<option>18pt</option>
+						<option>20pt</option>
+						<option>30pt</option>
+						<option>40pt</option>
+					</select>
+				</label> <!-- Select font size-->
+				<label>
+					<select name="font_family" class="select_form3">
+						<option style="font-family:Times New Roman" selected>Times New Roman</option>
+						<option style="font-family:Lucida Sans Unicode">Lucida Sans Unicode</option>
+						<option style="font-family:Comic Sans MS">Comic Sans MS</option>
+						<option style="font-family:Georgia">Georgia</option>
+						<option style="font-family:Palatino Linotype">Palatino Linotype</option>
+						<option style="font-family:Tahoma">Tahoma</option>
+						<option style="font-family:Aharoni">Aharoni</option>
+						<option style="font-family:Impact">Impact</option>
+						<option style="font-family:Calibri">Calibri</option>
+						<option style="font-family:Arial">Arial</option>
+						<option style="font-family:Niagara Solid">Niagara Solid</option>
+						<option style="font-family:Century Gothic">Century Gothic</option>
+					</select>
+				</label> 	<!--Button BgColor-->
+				<div class="color_bgcolor">
+					<input class="button Color" type="button" value="Color" id="Color" name="Color">
+					<input class="button BgColor" type="button" value="BgColor" id="BgColor" name="BgColor"> 
+				</div>
+				
+				<div class="colors" id="block"> <!--Color select table-->
+					<div style="background:Orchid" class='color_cell img'></div>
+					<div style="background:RosyBrown" class='color_cell img'></div>
+					<div style="background:Gold" class='color_cell img'></div>
+					<div style="background:Pink" class='color_cell img'></div>
+					<div style="background:PaleGreen" class='color_cell img'></div>
+					<div style="background:Peru" class='color_cell img'></div>
+					<div style="background:Aquamarine" class='color_cell img'></div>
+					<div style="background:Coral" class='color_cell img'></div>
+					<div style="background:CornflowerBlue" class='color_cell img'> </div>
+					<label class="loading">Download:
+					<input type="file" id="load_file" size="50" accept="image/*">
+					</label>
+					<input class="button background_image" type="button" value="Background image">
+					<input class="button Background_color" type="button" value="Background color">
+					
+				</div>
+
+				<div class="align"> <!--Text position-->
+					<label>
+						<input type="radio" name="radio" class="left" value="Left" checked> left</label>
+					<label>
+						<input type="radio" name="radio" class="center" value="Center"> center</label>
+					<label>
+						<input type="radio" name="radio" class="right" value="Right"> right</label>
+				</div>
+			</form>
+		</div>
+		<!-- General text block-->
+		<div class="box Lorem"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.<br> Nulla, aspernatur dolorem quas, sed delectus voluptatem,<br> quam, odit error quod consequatur quae vel. Eveniet est cum <br> culpa qui similique reprehenderit aperiam eius, iusto delectus <br> ex neque, reiciendis officiis eum illum quae illo molestias. Cum <br> dolor voluptas, fuga nihil ex. Quod a obcaecati magnam facere,<br> consequuntur est soluta repellendus libero neque quam placeat <br> temporibus adipisci, expedita? Perspiciatis officia, quasi <br> veritatis illum ex recusandae explicabo at libero laborum ipsum <br> ad est aut facere cum, iusto quos asperiores itaque delectus <br> officiis possimus suscipit expedita omnis cupiditate! <br> Accusamus cumque saepe, quisquam rerum voluptatibus non!<br></p>
+		</div>
+	
+		<div class="box edittxt"> 	<!-- Textarea block with button Save, Add - 2 form-->
+			<form action="#" name="form2" class="form2">
+				<textarea id="textarea" rows="22" cols="40" name="textarea"></textarea>
+			</form>
+		</div>
+		
+		<div class="box something_add"> <!--  Create table, list block  - 4,5 form-->
+			
+			<div class="add_table">  <!--  table  - 4 form-->
+				<form action="#" name="form4" class="form4">
+					<ul>
+						<li>
+							<label>Number of rows:
+								<input type="text" name="row" class="row" id="row_count" tabindex="1"> </label>
+							<label>Number of Columns:
+								<input type="text" name="cell" id="cell_count" tabindex="2"> </label>
+						</li>
+						<li>
+							<label>Width:
+								<input type="text" name="cell" id="cell_width" tabindex="3"> </label>
+							<label>Height:
+								<input type="text" name="cell" id="cell_height" tabindex="4"> </label>
+						</li>
+						<li>
+							<label>cellspacing
+								<input type="text" name="border_spacing" id="border_spacing" tabindex="5"> </label>
+						</li>
+						<li>
+							<label>Frame thickness:
+								<input type="text" name="border" id="border_width" tabindex="6"> </label>
+							<label>Frame color:
+								<input type="text" name="border_color" id="border_color" tabindex="7">
+							</label>
+						</li>
+						<li>
+							<!-- Reset Button-->
+							<input class="button reset" type="button" value="Reset" name="Reset">
+							<!-- Create Button-->
+							<input class="button create1" type="button" value="Create" name="Create"> </li>
+					</ul>
+				</form>
+			</div>
+			
+			<div class="add_list"> <!--  list  - 5 form-->
+				<form action="#" name="form5" class="form5">
+					<ul>
+						<li>
+							<label>Type list:
+								<input type="radio" name="radio" class="ol" value="ol" checked> OL </label>
+						</li>
+						<li>
+							<label id="ol_type">Type of ol mark:
+								<select name="mark_type" class="select_form6" id="olmark_type">
+									<option style="list-style-type: upper-alpha;" value="upper-alpha">A</option>
+									<option style="list-style-type: lower-alpha;" value="lower-alpha">a</option>
+									<option style="list-style-type: decimal;" value="decimal">1</option>
+									<option style="list-style-type: decimal-leading-zero;" value="decimal-leading-zero">01</option>
+									<option style="list-style-type: upper-roman;" value="upper-roman">I</option>
+									<option style="list-style-type: lower-roman;" value="lower-roman">i</option>
+								</select>
+							</label>
+						</li>
+						<li>
+							<label>How many items:
+								<input type="text" name="items" id="list_count"> </label>
+						</li>
+						<li>
+							<!-- Reset Button-->
+							<input class="button reset2" type="button" value="Reset" name="Reset">
+							<!-- Create Button-->
+							<input class="button create2" type="button" value="Create" name="Create"> </li>
+					</ul>
+				</form>
+			</div>
+		</div>
+		
+		<div class="overlay"></div> <!--Table colors redactor block-->
+	</div>
+	<script src="js/main.js"></script>
+</body>
+
+</html>

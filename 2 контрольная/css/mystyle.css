@@ -1,0 +1,316 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: url(../img/1.png);
+	background-size: cover;
+	z-index: 1;
+}
+
+.main {
+	width: 100%;
+	height: 100%;
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	position: relative;
+}
+
+
+/*all box stilization*/
+
+.box {
+	font-family: "Roboto", sans-serif;
+	box-shadow: 0 0 3px #aaa;
+	border-radius: 7px;
+	color: #fff;
+	margin: 5px 10px;
+	padding: 15px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	position: relative;
+}
+
+
+/*textarea stilization */
+
+#textarea {
+	width: 100%;
+	border-radius: 10px;
+	padding: 6px;
+	text-align: justify;
+}
+
+
+/*textblock stilization*/
+
+.Lorem {
+	position: relative;
+	padding: 6px;
+	overflow-y: auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	transition: 1s;
+	height: 400px;
+}
+
+.box.Lorem p {
+	text-align: left;
+	padding-left: 10px;
+	height: 100%;
+}
+
+
+/*all box stilization*/
+
+.button {
+	width: 60px;
+	height: 30px;
+	font-size: 12px;
+	font-weight: 700;
+	color: #fff;
+	border-radius: 15px;
+	background: #af7be9;
+	box-shadow: 0 1px rgba(255, 255, 255, 0.2) inset, 0 3px 5px rgba(0, 1, 6, 0.5), 0 0 1px 1px rgba(0, 1, 6, 0.2);
+}
+
+.button:hover {
+	background: #FFEFD5;
+}
+
+.button:active {
+	background: #FFDAB9;
+}
+
+.underline {
+	text-decoration: underline;
+}
+
+.reset,
+.reset2 {
+	margin-left: 20px;
+	margin-right: 70px;
+}
+
+.save,
+.Create_Table,
+.Create_List {
+	width: 85px;
+	padding: 4px;
+}
+
+/*color table stilization*/
+
+#block {
+	display: flex;
+	flex-wrap: wrap;
+	height: 167px;
+	width: 164px;
+	border-radius: 10px;
+	background: white;
+	border: 5px solid white;
+	box-shadow: 3px 3px 5px 6px black;
+	display: none;
+	position: absolute;
+	z-index: 101;
+}
+
+.colors,
+.newbgcolor {
+	position: absolute;
+	height: 166px;
+	top: 200px;
+	left: 600px;
+	z-index: 101;
+}
+
+.background_image {
+	font-size: 10px;
+	width: 110px;
+	display: none;
+	padding: 5px;	
+}
+
+.Background_color {
+	
+	font-size: 10px;
+	width: 110px;
+	display: none;
+	padding: 5px;
+	
+}
+
+
+
+
+
+/*square table with color*/
+
+.color_cell {
+	width: 50px;
+	height: 50px;
+	border: 2px groove gray;
+}
+
+
+
+/*block notsee*/
+
+.add_list,
+.colors,
+.add_table,
+.box.something_add,
+.Create_Table,
+.Create_List,
+.save,
+.edittxt {
+	display: none;
+}
+
+
+/*block pozition*/
+
+.something_add {
+	position: absolute;
+	text-align: left;
+	width: 310px;
+	height: 200px;
+	background-color: #ef55cf;
+	font-size: 12px;
+	top: 30%;
+	left: 40%;
+	border-radius: 20px;
+	margin: 0 auto;
+	padding: 0px;
+}
+
+.add_list {
+	padding-top: 20px;
+	height: 100px;
+}
+
+.add_table,
+.add_list {
+	position: relative;
+	justify-content: flex-start;
+	margin-left: 5%;
+}
+
+.add_list {
+	height: 368px;
+}
+
+.styletxt,
+.edittxt {
+	position: relative;
+}
+
+
+/*1-st block with all button stilization*/
+
+.buttons {
+	
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.form1 {
+	padding: 10px;
+	margin: 3px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.form1 input {
+	margin: 4px;
+}
+
+.form1 label {
+	color: black;
+}
+
+
+/*select form*/
+
+
+.select_form2,
+.select_form3,
+.select_form4,
+.select_form5 {
+	border-radius: 50px;
+	background-color: #f69cd9;
+	padding: 5px;
+}
+
+
+/*all form stilization*/
+
+.form2 {
+	width: 100%;
+}
+
+.form2 ul,
+.form3 ul,
+.form4 ul,
+.form5 ul {
+	list-style-type: none;
+	list-style-position: outside;
+	margin: 0px;
+	padding: 0px;
+}
+
+.form3 li {
+	padding: 22px;
+	position: relative;
+}
+
+.form2 li,
+.form4 li,
+.form5 li {
+	padding: 5px;
+	position: relative;
+}
+
+
+/*stilization data entry fields*/
+
+input[type="text"] {
+	border: none;
+	background-color: rgba(250, 240, 230, 0.015);
+	border-bottom: 1px solid black;
+	outline: none;
+	width: 10%;
+}
+
+input[type="text"]:focus {
+	color: #000000;
+	border: 1px solid #F4A460;
+}
+
+.colors label,
+.newbgcolor label,
+.newbg_img label {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	font-size: 12px;
+	color: black;
+}
+
+#overlay_2 {
+	height: 100%;
+	width: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	display: none;
+	background: #000;
+	opacity: .001;
+	z-index: 100;
+}
